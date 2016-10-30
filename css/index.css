@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #e0e0e0;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.svg-container{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000000;
+	margin: 0 auto;
+	position: relative;
+}
+
+.board iframe{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#face{
+	width:200px;
+	height: 200px;
+	position: absolute;
+	z-index: 1;
+}
+#hair{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 1;
+}
+#ear{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 1;
+}
+
+#eye{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 2;
+	/*float: right;*/
+}
+
+#eyebrow{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 1;
+}
+
+#nose{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 3;
+}
+
+#mouth{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 4;
+}
